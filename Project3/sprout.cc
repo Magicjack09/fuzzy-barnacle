@@ -9,20 +9,8 @@
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
-#include <vector>
 
 using namespace std;
-
-// Tree structure
-class Node{
-public:
-string name;
-vector <Node* > children;
-
-
-private:
-
-};
 
 // Flex interface (C linkage)
 extern "C" {
